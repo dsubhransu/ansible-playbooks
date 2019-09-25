@@ -1,8 +1,5 @@
-#
-#About: This will install ntp
-#
 ---
-- hosts: '{{inventory}}'
+- hosts: 12.0.4.97
   become: yes
   roles:
   - ntp
