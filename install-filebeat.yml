@@ -2,7 +2,7 @@
 #About: This will install filebeat
 #
 ---
-- hosts: '{{inventory}}'
+- hosts: 12.0.4.97
   become: yes
   roles:
   - filebeat
