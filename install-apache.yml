@@ -1,8 +1,5 @@
-#
-#About: This will install apache
-#
 ---
-- hosts: '{{inventory}}'
+- hosts: 12.0.4.97
   become: yes
   roles:
   - apache
