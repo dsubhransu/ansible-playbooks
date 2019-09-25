@@ -1,5 +1,5 @@
 ---
-- hosts: '{{inventory}}'
+- hosts: 12.0.4.97
   become: yes
   tasks:
     - name: Echo
