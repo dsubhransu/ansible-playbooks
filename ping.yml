@@ -1,7 +1,6 @@
 ---
 - hosts: '{{inventory}}'
   become: yes
-
   tasks:
-  - name: Echo
-    shell: "echo Hello!"
+    - name: Echo
+      shell: "echo Hello!"
