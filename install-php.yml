@@ -2,7 +2,7 @@
 #About: This will install Php
 #
 ---
-- hosts: '{{inventory}}'
+- hosts: node1
   become: yes
   roles:
   - php7
